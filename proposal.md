@@ -12,8 +12,10 @@
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
+Gestion de clubes de Futbol
 ### Descripción
-Pagina web destinada a clubes de futbol incorporando la gestion de socios, pagos de cuotas, noticias, entre otras. Esto servira para poder llevar la cantidad de socios dentro del club y determinar si llevan al dia la cuota
+Pagina web destinada a clubes de futbol incorporando la gestion de socios, pagos de cuotas, noticias, entre otras. Esto servira para poder llevar la cantidad de socios dentro del club, poder saber si llevan al dia la cuota y para los socios poder tener informacion, manteniendo transparencia en dicha institucion.
+Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos y logros obtenidos. 
 
 ### Modelo
 ![imagen del modelo]()
@@ -21,7 +23,6 @@ Pagina web destinada a clubes de futbol incorporando la gestion de socios, pagos
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
 ## Alcance Funcional 
-sdfasdfasdf
 ### Alcance Mínimo
 
 *Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
@@ -29,7 +30,7 @@ sdfasdfasdf
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
+|CRUD simple|1. CRUD Socios <br>2. CRUD Noticias<br>3. CRUD Cuota|
 |CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
 |Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
