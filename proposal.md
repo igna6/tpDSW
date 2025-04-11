@@ -2,8 +2,8 @@
 
 ## Grupo
 ### Integrantes
-47057 - Bruzzesi, Ignacio
-47240 - Oviedo, Bernardo
+47057 - Bruzzesi, Ignacio <br>
+47240 - Oviedo, Bernardo <br>
 46122- Sabbioni, Santiago
 
 ### Repositorios
