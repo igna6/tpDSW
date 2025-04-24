@@ -19,8 +19,7 @@ Las noticias que tengan lugar dentro del club actualizadas momento a momento con
 
 ### Modelo
 ![imagen del modelo]()
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+[Mermaid](https://drive.google.com/file/d/1iKmK5JbkXMSjraB80hQBhKbSSrEA-kAw/view) en lugar de imágenes.
 
 ## Alcance Funcional 
 ### Alcance Mínimo
@@ -40,7 +39,7 @@ Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Eventos/partidos<br>2. CRUD Plantel/Jugadores<br>3. CRUD Entradas<br>4. CRUD Administrador|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CUU/Epic|1. <br>2. <br>3. |
 
 
 ### Alcance Adicional Voluntario
