@@ -9,13 +9,12 @@
 ### Repositorios
 * [frontend app](http://hyperlinkToGihubOrGitlab)
 * [backend app](http://hyperlinkToGihubOrGitlab)
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
-Gestion de clubes de Futbol
+Gestion de clubes
 ### Descripción
-Pagina web destinada a clubes de futbol incorporando la gestion de socios, pagos de cuotas, noticias, entre otras. Esto servira para poder llevar la cantidad de socios dentro del club, poder saber si llevan al dia la cuota y para los socios poder tener informacion, manteniendo transparencia en dicha institucion.
-Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos y logros obtenidos. 
+Pagina web destinada a instituciones deportivas incorporando la gestión de socios, noticias, pagos de cuotas, entre otras. Esto servirá para que los socios o fanáticos del club puedan estar al tanto de novedades y tengan un lugar donde gestionar su membresía como socios en el caso de serlo. También ayuda a tener datos internos como la cantidad exacta de socios del club, cuántos usuarios son socios y cuántos no y a saber qué opinan los usuarios de las noticias del club mediante una sección de comentarios individual para cada novedad.
+Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos, logros obtenidos, futuros encuentros deportivos, actividades realizadas dentro de la institución o nuevo merchandising del club.
 
 ### Modelo
 ![imagen del modelo]()<br>
@@ -23,8 +22,6 @@ Las noticias que tengan lugar dentro del club actualizadas momento a momento con
 
 ## Alcance Funcional 
 ### Alcance Mínimo
-
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
@@ -38,7 +35,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Eventos/partidos<br>2. CRUD Plantel/Jugadores<br>3. CRUD Entradas<br>4. CRUD Administrador|
+|CRUD |1. CRUD Eventos/partidos<br>2. CRUD Plantel/Jugadores<br>3. CRUD Entradas<br>4. CRUD Comentarios|
 |CUU/Epic|1. <br>2. <br>3. |
 
 
