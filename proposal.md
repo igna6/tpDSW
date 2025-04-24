@@ -17,7 +17,7 @@ Pagina web destinada a instituciones deportivas incorporando la gestión de soci
 Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos, logros obtenidos, futuros encuentros deportivos, actividades realizadas dentro de la institución o nuevo merchandising del club.
 
 ### Modelo
-![imagen del modelo]()<br>
+
 [Link del modelo de dominio](https://drive.google.com/file/d/1iKmK5JbkXMSjraB80hQBhKbSSrEA-kAw/view).
 
 ## Alcance Funcional 
