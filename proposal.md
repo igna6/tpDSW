@@ -30,8 +30,8 @@ Las noticias que tengan lugar dentro del club actualizadas momento a momento con
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Socio <br>2. CRUD Noticias<br>3. CRUD Cuota|
-|CRUD dependiente|1. CRUD Socio {depende de} CRUD CRUD Cuota<br>2. CRUD Cliente {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Noticias<br>3. CRUD Cuota|
+|CRUD dependiente|1. CRUD Socio {depende de} CRUD Cuota<br>2. CRUD Multimedia {depende de} CRUD Noticias|
 |Listado<br>+<br>detalle| 1. Listado de SOCIO filtrado por los que estan al dia y los que no, muestra nro y tipo de socio => detalle CRUD Socio<br> 2. Listado de noticias filtrado por rango de fecha, muestra titulo de la noticia, fecha, foto de la noticia y breve descripcion => detalle muestra un listado de noticias|
 |CUU/Epic|1. Asociarte al club<br>2. Realizar una edicion dentro de las noticias del club|
 
@@ -39,7 +39,7 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
+|CRUD |1. CRUD Eventos/partidos<br>2. CRUD Plantel/Jugadores<br>3. CRUD Entradas<br>4. CRUD Administrador|
 |CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
 
 
