@@ -18,8 +18,8 @@ Pagina web destinada a clubes de futbol incorporando la gestion de socios, pagos
 Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos y logros obtenidos. 
 
 ### Modelo
-![imagen del modelo]()
-[Mermaid](https://drive.google.com/file/d/1iKmK5JbkXMSjraB80hQBhKbSSrEA-kAw/view) en lugar de imágenes.
+![imagen del modelo]()<br>
+[Link del modelo de dominio](https://drive.google.com/file/d/1iKmK5JbkXMSjraB80hQBhKbSSrEA-kAw/view).
 
 ## Alcance Funcional 
 ### Alcance Mínimo
