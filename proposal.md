@@ -13,7 +13,7 @@
 ## Tema
 Gestion de clubes
 ### Descripción
-Pagina web destinada a instituciones deportivas incorporando la gestión de socios, noticias, pagos de cuotas, entre otras. Esto servirá para que los socios o fanáticos del club puedan estar al tanto de novedades y tengan un lugar donde gestionar su membresía como socios en el caso de serlo. También ayuda a tener datos internos como la cantidad exacta de socios del club, cuántos usuarios son socios y cuántos no y a saber qué opinan los usuarios de las noticias del club mediante una sección de comentarios individual para cada novedad.
+Pagina web destinada a instituciones deportivas incorporando la gestión de socios, noticias, contenido de los partidos y entrenamientos, entre otras. Esto servirá para que los socios o fanáticos del club puedan estar al tanto de novedades y tengan un lugar donde gestionar su membresía como socios en el caso de serlo. También ayuda a tener datos internos como la cantidad exacta de socios del club, cuántos usuarios son socios y cuántos no y a saber qué opinan los usuarios de las noticias del club mediante una sección de comentarios individual para cada novedad.
 Las noticias que tengan lugar dentro del club actualizadas momento a momento con notas de jugadores post partidos, logros obtenidos, futuros encuentros deportivos, actividades realizadas dentro de la institución o nuevo merchandising del club.
 
 ### Modelo
@@ -26,8 +26,8 @@ Las noticias que tengan lugar dentro del club actualizadas momento a momento con
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Noticias<br>3. CRUD Cuota|
-|CRUD dependiente|1. CRUD Socio {depende de} CRUD Cuota<br>2. CRUD Multimedia {depende de} CRUD Noticias|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Noticias<br>3. CRUD Media|
+|CRUD dependiente|1. CRUD Socio {depende de} CRUD Cuota<br>2. CRUD Comentario {depende de} CRUD Noticias|
 |Listado<br>+<br>detalle| 1. Listado de SOCIO filtrado por los que estan al dia y los que no, muestra nro y tipo de socio => detalle CRUD Socio<br> 2. Listado de noticias filtrado por rango de fecha, muestra titulo de la noticia, fecha, foto de la noticia y breve descripcion => detalle muestra un listado de noticias|
 |CUU/Epic|1. Asociarte al club<br>2. Realizar una edicion dentro de las noticias del club|
 
