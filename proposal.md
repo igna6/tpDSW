@@ -26,10 +26,10 @@ Las noticias que tengan lugar dentro del club actualizadas momento a momento con
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Usuario <br>2. CRUD Noticias<br>3. CRUD Media|
-|CRUD dependiente|1. CRUD Socio {depende de} CRUD Cuota<br>2. CRUD Comentario {depende de} CRUD Noticias|
-|Listado<br>+<br>detalle| 1. Listado de SOCIO filtrado por los que estan al dia y los que no, muestra nro y tipo de socio => detalle CRUD Socio<br> 2. Listado de noticias filtrado por rango de fecha, muestra titulo de la noticia, fecha, foto de la noticia y breve descripcion => detalle muestra un listado de noticias|
-|CUU/Epic|1. Asociarte al club<br>2. Realizar una edicion dentro de las noticias del club|
+|CRUD simple|1. CRUD Usuario <br>2. CRUD Noticias<br>3. CRUD Media<br>4. CRUD Comentarios|
+|CRUD dependiente|1. CRUD Noticias {depende de} CRUD Administrador<br>2. CRUD Comentario {depende de} CRUD Noticias|
+|Listado<br>+<br>detalle| 1. Listado de COMENTARIOS filtrado por antiguedad, muestra contenido, autor y fecha => detalle CRUD Comentario<br> 2. Listado de noticias filtrado por rango de fecha, muestra título de la noticia, fecha, foto de la noticia y breve descripción => detalle muestra un listado de noticias|
+|CUU/Epic|1. Realizar un comentario en una noticia<br>2. Realizar una edición dentro de las noticias del club<br>3. Cambiar tipo de usuario a administrador|
 
 
 Adicionales para Aprobación
@@ -45,7 +45,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. |
+|CUU/Epic|1.|
+|Otros|1. |
 
