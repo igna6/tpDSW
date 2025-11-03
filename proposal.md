@@ -7,8 +7,8 @@
 46122- Sabbioni, Santiago
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app](https://github.com/bernioviedo/TP-Club/tree/main/client)
+* [backend app](https://github.com/bernioviedo/TP-Club/tree/main/server)
 
 ## Tema
 Gestion de clubes
